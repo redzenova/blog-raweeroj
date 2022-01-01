@@ -16,18 +16,18 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "th-TH"
-title                    : "Hey! | Raweeroj Thongdee"
+title                    : "Hey! เฮ | Raweeroj Thongdee"
 title_separator          : "|"
 subtitle                 : "Welcome to my world - ยินดีต้อนรับสู่โลกของผม"
 name                     : "Raweeroj Thongdee"
 description              : "HPC and Supercomputer, Network, Server , Embedded Systems ชอบอะไรก็ได้ที่เกี่ยวกับเทคโนโลยีและคอมพิวเตอร์ เขียนบล็อก(ถ้าว่าง !) แบ่งปัน maker"
-url                      : # "https://blog.raweeroj.in.th"
+url                      : "https://blog.raweeroj.in.th"
 baseurl                  : "/"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "redzenova/blog-raweeroj"
+teaser                   : "/assets/images/500x300.png"
 logo                     : "/assets/images/logo-dev.png"
 masthead_title           : ">_ Raweeroj Metaverse ;"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true #false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true # false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -70,6 +70,7 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -79,7 +80,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : terminalls
 facebook:
   username               :
   app_id                 :
@@ -99,12 +100,11 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-
 # Site Author
 author:
   name             : "Raweeroj Thongdee"
   avatar           : "/assets/images/profile-pic.jpeg"
-  bio              : "HPC and Supercomputer, Network, Server , Embedded Systems ชอบอะไรก็ได้ที่เกี่ยวกับเทคโนโลยีและคอมพิวเตอร์ เขียนบล็อก(ถ้าว่าง !) แบ่งปัน maker"
+  bio              : "HPC and Supercomputer, Network, Server, Embedded Systems ชอบอะไรก็ได้ที่เกี่ยวกับเทคโนโลยีและคอมพิวเตอร์ เขียนบล็อก(ถ้าว่าง !) แบ่งปัน maker"
   location         : "Bangkok , Thailand"
   links:
     - label: "Twitter"
@@ -197,7 +197,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Bangkok # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -266,7 +266,7 @@ collections:
     permalink: /:collection/:path/
 
 
-# Defaults
+# Defaults -- Configuration
 defaults:
   # _posts
   - scope:
@@ -278,6 +278,7 @@ defaults:
       read_time: true
       share: true
       related: true
+      show_date: true  #แสดงผลวันที่
   # _pages
   - scope:
       path: "_pages"

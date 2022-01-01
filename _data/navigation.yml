@@ -1,19 +1,13 @@
 # main links links
 main:
   - title: "About"
-    url: #
+    url: /
   - title: "Posts"
-    url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
-  - title: "Extra Menu Item 1"
     url: /
-  - title: "Extra Menu Item 2"
-    url: /
-  - title: "Extra Menu Item Long Title"
-    url: /
+  - title: "Category"
+    url: /categories/
+
+
 
 # sidebar navigation list sample
 sidebar-sample:
