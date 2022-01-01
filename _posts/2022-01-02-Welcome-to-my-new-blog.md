@@ -11,7 +11,7 @@ tags:
 ## สวัสดีทุกท่านครับ!!  ห่างหายกันไปตั้งนาน ก่อนอื่นผมต้องขอกล่าวคำว่า 🎉🎉 สวัสดีปีใหม่ 2565 ครับ 🎉🎉
 
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/in-post/post-1-1.png" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post-1-1.png" alt="">
 </figure> 
 
 ก่อนที่ผมจะเริ่มเล่าถึงที่มาที่ไปกว่าจะมาเป็น บทความ หรือ blog นี้ได้นั้นรวมถึงสาเหตุและเหตุผลต่างๆ ที่ผมย้ายจาก Medium ซึ่งหลายๆ ท่านก็คงน่าจะติดตามผมกันมาอยู่บ้าง
